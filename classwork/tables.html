@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <h3>Basic Table</h3>
+    <table>
+      <caption>
+        This is a Caption
+      </caption>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Age</th>
+      <tr>
+        <td>John</td>
+        <td>john@abc.com</td>
+        <td>46</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>jane@xyz.com</td>
+        <td>26</td>
+      </tr>
+    </table>
+    <br />
+    <h3>Table with Border</h3>
+    <table border="1">
+      <tr>
+        <td>John</td>
+        <td>john@abc.com</td>
+        <td>46</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>jane@xyz.com</td>
+        <td>26</td>
+      </tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Age</th>
+    </table>
+
+    <br />
+
+    <h3>Table Ordering</h3>
+    <table border="1">
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>250</td>
+          <td>72</td>
+        </tr>
+      </tfoot>
+
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>100</td>
+          <td>46</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>150</td>
+          <td>26</td>
+        </tr>
+      </tbody>
+
+      <thead>
+        <th>Name</th>
+        <th>Gain</th>
+        <th>Loss</th>
+      </thead>
+    </table>
+    <br />
+
+    <h3>Table Column Span</h3>
+    <table border="1">
+      <thead>
+        <th>Name</th>
+        <th>Gain</th>
+        <th>Loss</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>100</td>
+          <td>46</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td colspan="2">150</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <h3>Table Rows Span</h3>
+    <table border="1">
+      <thead>
+        <th>Name</th>
+        <th>Gain</th>
+        <th>Loss</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">John</td>
+          <td>100</td>
+          <td>46</td>
+        </tr>
+        <tr>
+          <td colspan="2">150</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <h3>Table Coloring</h3>
+    <table border="1">
+      <thead>
+        <th bgcolor="cyan">Name</th>
+        <th>Gain</th>
+        <th>Loss</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">John</td>
+          <td>100</td>
+          <td>46</td>
+        </tr>
+        <tr>
+          <td colspan="2">150</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <h2>Image</h2>
+    <img src="./img/rocky.jpeg" alt="Rocky" width="280px" height="500px" />
+  </body>
+</html>
