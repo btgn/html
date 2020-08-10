@@ -1,0 +1,42 @@
+-   Hyphen
+~   Tilde
+:   Colon
+;   Sem-Colon
+/   Forward Slash
+\   Backward Slash
+*   Asterisk
+#   Hash
+!   Exclamation
+$   Dollar / Sum
+%   Percentage / Percentile
+^   Cap
+&   And / Ampercent
+()  Brackets / Paranthesis
+[]  Square Brackets
+{}  Flower Brackets
+""  Double Quotes
+''  Single Quotes
+'   Apostrophe
+<>  Less than symbol or Greater symbol / Angular Brackets
+,   Comma
+.   Full Stop / Period
+?   Question
+
+cd    - Change Directory
+md    - Move Directory
+cd .. - move one directory up
+dir   - Directory
+cls   - clear screen
+mkdir - Make Directory
+notepad - opens notepad
+
+
+1 bit = 4 nibbles
+1 Byte = 8 bits
+1 Kilobyte(kb) = 1024 Bytes
+1 Megabyte(mb) = 1024 kb
+1 Gigabyte(Gb) = 1024 mb
+1 Terabyte(Tb) = 1024 Gb
+
+
+221164 bytes = ? kb

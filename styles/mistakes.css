@@ -1,0 +1,8 @@
+.error {
+  color: red;
+}
+
+.italic {
+  font-weight: bold;
+  font-style: italic;
+}
