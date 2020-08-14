@@ -21,7 +21,6 @@ $   Dollar / Sum
 ,   Comma
 .   Full Stop / Period
 ?   Question
-
 cd    - Change Directory
 md    - Move Directory
 cd .. - move one directory up
