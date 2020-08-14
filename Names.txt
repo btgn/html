@@ -29,7 +29,8 @@ dir   - Directory
 cls   - clear screen
 mkdir - Make Directory
 notepad - opens notepad
-
+tree - Shows the folder structure
+tree /F - Shows the folder structure with files
 
 1 bit = 4 nibbles
 1 Byte = 8 bits
